@@ -22,14 +22,9 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/Slacky300/WomenSafetyHackathonApp.git
+   https://github.com/Shikhar2106-ctrl/womenSafety1.git
    ```
 
-## Navigate to the project directory:
-
- ```bash
-  cd BVP_HACKATHON
-```
 ## Install server dependencies:
 
 ```bash
@@ -43,14 +38,9 @@ Follow these steps to set up and run the project locally:
   cd ../client
   npm install
 ```
-
-## Set up AWS S3:
-
-Create an AWS S3 bucket and configure access keys in your environment variables.
-
 ## Configure the application:
 
-Create a `.env` file in the server directory and configure environment variables such as database connection, AWS S3 credentials, and email settings.
+Create a `.env` file in the server directory and configure environment variables such as database connection, email settings.
 
 ## Start the development server:
 
@@ -73,7 +63,4 @@ Open your web browser and navigate to: `http://localhost:3000`.
 
 - Users can register and log in to access the distress signal, incident reporting, and other features.
 - Admins can access the admin panel by visiting /admin and log in using admin credentials.
-
-**Screenshot**
-
-![image](https://github.com/user-attachments/assets/255eca28-51af-4d59-8466-cd5fd2f0daf7)
+]
